@@ -14,31 +14,95 @@
 
 	<!-- Navigation -->
 
-	<nav class="navbar navbar-expand-lg bg-white">
+	<nav class="navbar navbar-expand-md bg-white navbar-light sticky-top">
 		<div class="container-fluid mx-3">
 		  <a class="navbar-brand" href="#"><img src="/29. Bootstrap 4 Site Files/Bootstrap 4 Site Files/img/logo.png"alt=""></a>
 		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		  </button>
 		  <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
-			<div class="navbar-nav ms-auto">
-			  <a class="nav-link mx-3 active" aria-current="page" href="#">Home</a>
-			  <a class="nav-link mx-3" href="#">About</a>
-			  <a class="nav-link mx-3" href="#">Services</a>
-			  <a class="nav-link mx-3" href="#">Team</a>
-			  <a class="nav-link mx-3" href="#">Connect</a>
+			<ul class="navbar-nav ms-auto">
+				<li class="nav-item mx-3"> 
+					<a href="#" class="nav-link">Home</a>
+				</li>
+				<li class="nav-item mx-3"> 
+					<a href="#" class="nav-link">About</a>
+				</li>
+				<li class="nav-item mx-3"> 
+					<a href="#" class="nav-link">Services</a>
+				</li>
+				<li class="nav-item mx-3"> 
+					<a href="#" class="nav-link">Team</a>
+				</li>
+				<li class="nav-item mx-3"> 
+					<a href="#" class="nav-link">Connect</a>
+				</li>
+				
+			
 			  
-			</div>
+			</ul>
 		  </div>
 		</div>
 	  </nav>
 
 
 	<!--- Image Slider -->
+	<section id="imageSlider">
+		<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+			<div class="carousel-indicators">
+			  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+			  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+			  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+			</div>
+			<div class="carousel-inner">
+			  <div class="carousel-item active">
+				<img src="/29. Bootstrap 4 Site Files/Bootstrap 4 Site Files/img/background.png" class="d-block w-100" alt="...">
+				<div class="carousel-caption d-none d-sm-block">
+				
+				  <h1 class="diplay-2">BOOTSTRAP</h1>
+				  <h3>Complete Website Layout</h3>
+				  <button type="button"  class="btn btn-outline-light btn-lg">VIEW DEMO</button>
+				  <button  type="button" class="btn btn-primary  btn-lg">VIEW DEMO</button>
+				</div>
+			  </div>
+			  <div class="carousel-item">
+				<img src="/29. Bootstrap 4 Site Files/Bootstrap 4 Site Files/img/background2.png" class="d-block w-100" alt="...">
+				<div class="carousel-caption d-none d-md-block">
+				  <h5>Second slide label</h5>
+				  <p>Some representative placeholder content for the second slide.</p>
+				</div>
+			  </div>
+			  <div class="carousel-item">
+				<img src="/29. Bootstrap 4 Site Files/Bootstrap 4 Site Files/img/background3.png" class="d-block w-100" alt="...">
+				<div class="carousel-caption d-none d-md-block">
+				  <h5>Third slide label</h5>
+				  <p>Some representative placeholder content for the third slide.</p>
+				</div>
+			  </div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+			  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			  <span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+			  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			  <span class="visually-hidden">Next</span>
+			</button>
+		  </div>
+	</section>
 
 
 	<!--- Jumbotron -->
-
+<section id="jumbotron" class="bg-secondary">
+	<div class="container">
+		<div class="row p-4">
+			<div class="col-md-8">
+				<p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit et optio architecto voluptatem sit soluta.</p>
+			</div>
+			<div class="col-md-4"> <button class="btn btn-outline-dark btn-lg"> Web Hosting </button> </div>
+		</div>
+	</div>
+</section>
 
 	<!--- Welcome Section -->
 
