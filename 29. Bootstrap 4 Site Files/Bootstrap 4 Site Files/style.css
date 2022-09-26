@@ -33,9 +33,19 @@ body {
 
 #imageSlider h1 {
   font-size: 5rem;
-  text-transform: capitalize;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 10px black;
 }
 
+.btn-primary {
+  background-color: #6648b1;
+  border: 1px solid #563d7c;
+}
+
+.btn-primary:hover {
+  background-color: #563d7c;
+  border: 1px solid #563d7c;
+}
 
 
 /*---Media Queries --*/
